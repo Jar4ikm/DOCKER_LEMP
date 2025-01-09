@@ -29,16 +29,3 @@ services:
       MYSQL_ROOT_PASSWORD: admin
     ports:
       - "3306:3306"
-
-  phpmyadmin:
-    image: phpmyadmin/phpmyadmin
-    restart: always
-    links:
-      - mysql
-    ports:
-      - "8183:80"
-    environment:
-      PMA_USER: root
-      PMA_PASSWORD: admin
-      PMA_ARBITRARY: 1
-
