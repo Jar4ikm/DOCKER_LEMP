@@ -1,5 +1,5 @@
 for mysql
-connect to mariadb then type:
+connect to mariadb then type(root:admin):
 
 create database site;
 
